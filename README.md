@@ -42,7 +42,7 @@ This confirmed my hypothesis that training on the same corpus improves alignment
 
 ### Experimenting with Larger Training Corpus
 
-Next, I augmented the NLLB dataset with the **CCMatrix bilingual dataset**. However, the additional data resulted in decreased precision scores:
+Next, I augmented the NLLB dataset with the **CCMatrix bilingual dataset**. However, the additional data resulted in decreased precision scores.
 
 This may have been due to the lower quality of the CCMatrix dataset or other factors yet to be identified.
 
@@ -52,9 +52,9 @@ This may have been due to the lower quality of the CCMatrix dataset or other fac
 
 1. **Epochs**:  
    I experimented by increasing the number of training epochs from 5 to 20, but it did not improve the precision scores. This suggests a possible divergence in 
-   loss or another underlying issue.
+   loss or another underlying issue:
    - Precision@1: **0.3712**
-- Precision@5: **0.5176**
+   - Precision@5: **0.5176**
    
 3. **Embedding Dimension and Context Window**:  
    By increasing the output dimension from 100 to 150 and the context window from 5 to 8 (with 5 epochs), I observed improved results:
