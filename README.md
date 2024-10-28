@@ -1,7 +1,3 @@
-# sarvam_assignment
-
-This repository is a submission for the sarvam.ai assignment, focusing on cross-lingual word embedding alignment between English and Hindi using the Procrustes method.
-
 ## Setup
 
 1. Install necessary libraries.
